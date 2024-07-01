@@ -1,5 +1,11 @@
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+# k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+# xhofe/alist:latest
+nginx:stable-perl
+redis:7.4-rc2-alpine3.20
+mysql:oraclelinux9
+neo4j:latest
+ollama/ollama:latest
+
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# --platform=linux/arm64 xiaoyaliu/alist
